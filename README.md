@@ -1,1 +1,3 @@
 # dangerousobjectdetection
+
+In the pursuit of enhancing object detection efficiency, we integrated Intel's OneAPI tool OpenVino after optimizing YOLO model weights. OpenVino, a vital component of Intel's OneAPI toolkit, leverages hardware acceleration to expedite computational tasks. Notably, in a sample image featuring two knives, OpenVino showcased a 40% reduction in processing time compared to Ultralytics object detection, completing the task within approximately 300 milliseconds, while Ultralytics required nearly 520 milliseconds. This significant improvement underscores the efficacy of OpenVino's optimization capabilities in enhancing object detection algorithms' efficiency.
